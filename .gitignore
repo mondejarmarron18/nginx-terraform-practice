@@ -1,0 +1,41 @@
+# Environment
+.env
+*.env
+
+# Node.js
+node_modules/
+
+# Build artifacts
+dist/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Editors and IDEs
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# TypeScript
+*.js
+*.js.map
+
+# Others
+yarn.lock
